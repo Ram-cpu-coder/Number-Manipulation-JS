@@ -20,9 +20,25 @@ console.log(typeof val, val);
 
 //but there is other way to do it more effectively 
 //parseInt() 
-// but it wont work on the decimal numbers
+// but it wont work on the decimal numbers 
 
 const num2 = "23sa";
 const val2 = parseInt(num2);
 
 console.log(typeof val2, val2);
+
+
+//for the decimal numbers we use parseFloat()
+
+const num3 = "234.23we";
+const val3  = parseFloat(num3);
+
+console.log(typeof val3, val3);
+
+
+//similar properties of parseInt()
+const num4 = "se23.432sdf";
+const val4 = parseFloat(num4);
+isNaN(val4);
+
+console.log(typeof val4, val4, isNaN(val4));
