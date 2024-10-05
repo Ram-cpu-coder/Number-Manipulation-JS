@@ -42,3 +42,4 @@ const val4 = parseFloat(num4);
 isNaN(val4);
 
 console.log(typeof val4, val4, isNaN(val4));
+
